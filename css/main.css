@@ -1,0 +1,72 @@
+:root{
+    --fonRangi:#303030;
+    --yozuvRangi: #f1f1f1;
+    --shrift: 23px;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.col{
+    width: 30%;
+    float: left;
+    background-color: white;
+    display: block;
+    margin: 20px 15px;
+}
+.img-box{
+    width: 100%;
+    height: 250px;
+    display: block;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.text{
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 10px solid blue;
+}
+.clear{
+    clear: both;
+}
+@media (min-width: 240px)and (max-width: 570px) {
+    .wrap{
+        width: 100%;
+        background-color: aqua;
+    }
+}
+@media (min-width: 570px)and (max-width: 780px) {
+    .wrap{
+        width: 100%;
+        background-color: blueviolet;
+    }
+}
+@media (min-width: 780px)and (max-width: 990px) {
+    .wrap{
+        width: 100%;
+        background-color: red;
+        color: white;
+    }
+}
+@media (min-width: 990px)and (max-width: 1200px) {
+    .wrap{
+        width: 100%;
+        background-color: blue;
+        color: white;
+    }
+}
+@media (min-width: 1200px){
+    .wrap{
+        width: 100%;
+        background-color: green;
+        color: white;
+    }
+}
+
